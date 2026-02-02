@@ -22,8 +22,10 @@ param(
 # 例: /home/username/.nvm/versions/node/v22.15.0/bin/node
 #     /home/username/.nvm/versions/node/v22.15.0/bin/codex
 
-$NODE_PATH = "/home/YOUR_USERNAME/.nvm/versions/node/v22.22.0/bin/node"
-$CODEX_PATH = "/home/YOUR_USERNAME/.nvm/versions/node/v22.22.0/bin/codex"
+# Review the following paths and update them to match your environment. 
+# Run 'which node' and 'which codex' in WSL to find the correct paths.
+$NODE_PATH = "/home/YOUR_USERNAME/.nvm/versions/node/vXX.XX.X/bin/node"
+$CODEX_PATH = "/home/YOUR_USERNAME/.nvm/versions/node/vXX.XX.X/bin/codex"
 
 # ============================================================
 # 以下は変更不要

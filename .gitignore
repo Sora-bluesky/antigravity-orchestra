@@ -1,0 +1,57 @@
+# 環境変数・機密情報
+.env
+.env.local
+.env.*.local
+
+# APIキー・シークレット
+*.pem
+*.key
+secrets.json
+
+# Codex 相談ログ（プライベートな内容を含む可能性）
+logs/codex-responses/*
+!logs/codex-responses/.gitkeep
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+*.Identifier
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# テスト・カバレッジ
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ビルド成果物
+*.exe
+*.dll
+*.so
+*.dylib
