@@ -72,11 +72,27 @@ Google Antigravity と OpenAI Codex CLI を協調させる、AIマルチエー�
 ~~~bash
 # 1. クローン
 git clone https://github.com/Sora-bluesky/antigravity-orchestra.git
+~~~
 
-# 2. Antigravity でフォルダを開く
-#    File → Open Folder → antigravity-orchestra
+#### Step 2: Antigravity でプロジェクトを開く
 
-# 3. 動作確認
+1. **Antigravity を起動**（タスクバーから、またはスタートメニューから）
+2. **File → Open Folder** をクリック
+3. **フォルダ選択ダイアログ**で以下に移動:
+   - `C:\Users\{あなたのユーザー名}\Documents\Projects\my-project`
+   （git clone で作成したフォルダ）
+4. **「フォルダーの選択」**をクリック
+
+:::message
+**💡 ヒント**
+エクスプローラーで `my-project` フォルダを開いた状態で、アドレスバーに `antigravity .` と入力しても開けます。
+:::
+
+#### Step 3: 動作確認
+
+Antigravity のチャット欄に入力してください：
+
+~~~bash
 /startproject Hello World を表示するプログラム
 ~~~
 
@@ -129,7 +145,11 @@ antigravity-orchestra/
 <summary><strong>Q: 料金はかかる？</strong></summary>
 
 - **Antigravity**: 無料（パブリックプレビュー）
-- **Codex CLI**: OpenAI API 料金が発生します（従量課金）
+- **Codex CLI**: ChatGPT Plus/Pro のサブスクリプションが必要です（$20/月〜）。OAuth認証でサインインして利用します。
+  - ChatGPT Plus: $20/月
+  - ChatGPT Pro: $200/月
+  - API キー利用の場合は従量課金も可能
+  - [詳細な料金情報](https://developers.openai.com/codex/pricing/)
 </details>
 
 <details>
