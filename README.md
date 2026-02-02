@@ -427,17 +427,9 @@ Plus（$20/月）で十分使えます。Pro（$200/月）はより多くの使�
 
 ---
 
-## 🤝 Contributing
+## 🤝 フィードバック
 
-コントリビューションは大歓迎です！
-
-1. リポジトリをフォーク
-2. 機能ブランチを作成（`git checkout -b feature/amazing-feature`）
-3. 変更をコミット（`git commit -m 'Add amazing feature'`）
-4. ブランチにプッシュ（`git push origin feature/amazing-feature`）
-5. Pull Request を作成
-
-バグ報告や機能リクエストは [Issue](https://github.com/Sora-bluesky/antigravity-orchestra/issues) でお願いします。
+バグ報告や改善提案は [Issue](https://github.com/Sora-bluesky/antigravity-orchestra/issues) でお願いします。
 
 ---
 
